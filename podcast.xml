@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Cortico Health Technologies Podcast</title>
+    <itunes:owner>
+        <itunes:email>sales@cortico.ca</itunes:email>
+    </itunes:owner>
+    <itunes:author>Cortico</itunes:author>
+    <description>Audio guides and interviews to help medical staff better manage their clinics through the adoption of telehealth.</description>
+    <itunes:image href="https://xymu.github.io/cortico-podcast/assets/img/avatar.png"/>
+    <language>en-us</language>
+    <link>https://xymu.github.io/cortico-podcast/</link>
+	<item>
+      <title>Podcast 4</title>
+      <description>Podcast 4</description>
+      <pubDate>Fri, 23 Nov 2021 12:00:00 GMT</pubDate>
+      <enclosure url="https://xymu.github.io/cortico-podcast/Podcast4.mp3"
+                 type="audio/mpeg" length="33861888"/>
+      <itunes:duration>35:16</itunes:duration>
+      <guid>dzpodclean</guid>
+    </item>
+  </channel>
+</rss>
