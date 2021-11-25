@@ -19,11 +19,11 @@ theme_settings:
 
   # Icons
   rss: true
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: help@cortico.ca # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
-  facebook:
+  facebook: "corticosoftware"
   flickr:
   gitlab:
   github: "xymu/cortico-podcast"
@@ -37,15 +37,15 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter:
+  twitter: "cortico6"
   wordpress:
-  youtube:
+  youtube: "UCfIhUsWtdSqJgj6zrqZvGKg"
 
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
-  katex: true # Enable if using math markup
-  search: false # Enable the search feature
+  katex: false # Enable if using math markup
+  search: true # Enable the search feature
 
   # Localization strings
   str_follow_on: "Follow on"
