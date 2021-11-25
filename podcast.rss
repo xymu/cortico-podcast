@@ -1,0 +1,27 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Cortico Health Technologies Podcast</title>
+    <itunes:owner>
+        <itunes:email>calvin.ling@cortico.health</itunes:email>
+    </itunes:owner>
+    <itunes:author>Cortico</itunes:author>
+    <description>Audio guides and interviews to help medical staff better manage their clinics through the adoption of telehealth.</description>
+    <itunes:image href="https://xymu.github.io/cortico-podcast/assets/img/avatar.png"/>
+    <language>en-us</language>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+	{% for post in site.posts limit:15 %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <guid isPermaLink="true">{{ post.url | relative_url }}</guid>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+		<enclosure url={{ post.enclosure | xml_escape }} type="audio/mpeg" length={{ post.length | xml_escape }}/>
+      <itunes:duration>{{ post.duration | xml_escape }}</itunes:duration>
+      </item>
+    {% endfor %}
+  </channel>
+</rss>
