@@ -9,7 +9,7 @@ layout: null
         <itunes:email>calvin.ling@cortico.health</itunes:email>
     </itunes:owner>
     <itunes:author>Cortico</itunes:author>
-    <description>Audio guides and interviews to help medical staff better manage their clinics through the adoption of telehealth.</description>
+    <description>Audio guides and interviews to help medical staff better manage their clinics through the adoption of telehealth. 1409</description>
     <itunes:image href="https://xymu.github.io/cortico-podcast/assets/img/avatar.png"/>
     <language>en-us</language>
     <link>{{ site.url }}{{ site.baseurl }}/</link>
