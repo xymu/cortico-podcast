@@ -12,6 +12,7 @@ layout: default
   </header>
   <section class="post-content">{{ content }}</section>
   {% include tags_list.html tags=page.tags tag_count=page.tags.size %}
+  {% include embed-audio.html src="<enclosure>" %}
 </article>
 
 <!-- Disqus -->

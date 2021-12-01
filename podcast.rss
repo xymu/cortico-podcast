@@ -12,14 +12,14 @@ layout: null
     <description>Audio guides and interviews from Cortico to help medical staff better manage their clinics through the adoption of telehealth.</description>
     <itunes:image href="https://xymu.github.io/cortico-podcast/assets/img/avatar.png"/>
     <language>en-us</language>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <link>https://cortico.health/article</link>
 	{% for post in site.posts limit:15 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <guid isPermaLink="true">{{ post.url | relative_url }}</guid>
         <description>{{ post.description | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <enclosure url="{{ post.enclosure | xml_escape }}" type="audio/mpeg" length="{{ post.length | xml_escape }}"/>
+        <enclosure url="{{ post.enclosure | xml_escape }}" type="audio/mp4" length="{{ post.length | xml_escape }}"/>
         <itunes:duration>{{ post.duration | xml_escape }}</itunes:duration>
       </item>
     {% endfor %}
