@@ -11,9 +11,6 @@ layout: default
     </p>
   </header>
   <section class="post-content">{{ content }}</section>
-  {% if page.enclosure %}
-    {% include embed-audio.html src="{{ page.enclosure }}" %}
-  {%end if %}
   {% include tags_list.html tags=page.tags tag_count=page.tags.size %}
 </article>
 
