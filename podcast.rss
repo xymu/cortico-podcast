@@ -19,10 +19,10 @@ layout: null
 	{% for post in site.posts limit:15 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-		<guid>{{ site.url | xml_escape }}{{ site.baseurl | xml_escape }}/{{ post.enclosure | xml_escape }}</guid>
+		<guid>{{ site.url | xml_escape }}{{ site.baseurl | xml_escape }}{{ post.enclosure | xml_escape }}</guid>
         <description>{{ post.description | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <enclosure url="{{ site.url | xml_escape }}{{ site.baseurl | xml_escape }}/{{ post.enclosure | xml_escape }}" type="audio/mp4" length="{{ post.length | xml_escape }}"/>
+        <enclosure url="{{ site.url | xml_escape }}{{ site.baseurl | xml_escape }}{{ post.enclosure | xml_escape }}" type="audio/mp4" length="{{ post.length | xml_escape }}"/>
         <itunes:duration>{{ post.duration | xml_escape }}</itunes:duration>
 		<link>{{ post.transcript | xml_escape }}</link>
 		<itunes:image>{{ site.url | xml_escape }}{{ post.image | xml_escape }}</itunes:image>
