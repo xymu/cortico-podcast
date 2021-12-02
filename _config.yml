@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "cortico-podcast"
-url: "https://xymu.github.io/"
+baseurl: "/cortico-podcast"
+url: "https://xymu.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
