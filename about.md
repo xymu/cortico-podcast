@@ -13,8 +13,6 @@ Please find us wherever you get your podcasts:
 * Pending - [Google Podcasts]()
 * [Spotify](https://open.spotify.com/show/5U007qsCkUF3ZXmdmi15m9)
 * Pending - [TuneIn](https://tunein.com/)
-
-
 * [Anchor](https://anchor.fm/cortico)
 * [Breaker](https://www.breaker.audio/cortico-health/)
 * [Castbox](https://castbox.fm/ch/4692943)
