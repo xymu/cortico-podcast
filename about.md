@@ -19,7 +19,7 @@ Please find us wherever you get your podcasts:
 * [Deezer](https://deezer.com/show/3204172)
 * [iHeart](https://iheart.com/podcast/89981679/)
 * [Listen Notes](https://www.listennotes.com/podcasts/cortico-health-technologies-podcast-cortico-iqXR_Yz-wNe/)
-* [Pandora]() Pending
+* Pending - [Pandora]()
 * [PlayerFM](https://player.fm/series/cortico-health-technologies-podcast)
 * [PocketCasts](https://pca.st/vn8a5oet)
 * [Podbean](https://cortico.podbean.com)
