@@ -11,7 +11,7 @@ Please find us wherever you get your podcasts:
 * Pending - [Apple]()
 * Pending - [Google Podcasts]()
 * [Spotify](https://open.spotify.com/show/5U007qsCkUF3ZXmdmi15m9)
-* Pending - [TuneIn]()
+* Pending - [TuneIn](https://tunein.com/)
 
 * [Anchor](https://anchor.fm/cortico)
 * [Breaker](https://www.breaker.audio/cortico-health/)
