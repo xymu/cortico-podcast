@@ -6,6 +6,7 @@ layout: null
   <channel>
     <title>Cortico Health Technologies Podcast</title>
     <itunes:owner>
+        <itunes:name>Cortico Health</itunes:name>
         <itunes:email>calvin.ling@cortico.health</itunes:email>
     </itunes:owner>
     <itunes:author>Cortico Health Technologies</itunes:author>
@@ -18,6 +19,7 @@ layout: null
 	{% for post in site.posts limit:15 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
+		<guid>{{ site.url | xml_escape }}{{ site.baseurl | xml_escape }}/{{ post.enclosure | xml_escape }}</guid>
         <description>{{ post.description | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <enclosure url="{{ site.url | xml_escape }}{{ site.baseurl | xml_escape }}/{{ post.enclosure | xml_escape }}" type="audio/mp4" length="{{ post.length | xml_escape }}"/>
