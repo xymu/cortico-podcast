@@ -12,6 +12,7 @@ layout: null
     <itunes:author>Cortico Health Technologies</itunes:author>
 	<itunes:category text="Health &amp; Fitness"/>
 	<itunes:explicit>no</itunes:explicit>
+	<itunes:new-feed-url>https://cortico-health.github.io/cortico-podcast/podcast.rss</itunes:new-feed-url>
     <description>Audio guides and interviews from Cortico to help medical staff better manage their clinics through the adoption of telehealth.</description>
     <itunes:image href="https://xymu.github.io/cortico-podcast/assets/img/avatar.png"/>
     <language>en-us</language>
